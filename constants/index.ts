@@ -89,11 +89,7 @@ export const SKILL_DATA = [
 ] as const;
 
 export const SOCIALS = [
-  {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
+  
   {
     name: "Facebook",
     icon: FaFacebook,
@@ -104,6 +100,22 @@ export const SOCIALS = [
     icon: RxTwitterLogo,
     link: "https://twitter.com",
   },
+  {
+    name: "Linkedin",
+    icon: RxLinkedinLogo,
+    link: "https://linkedin.com/in/ablert-jin-980897353/",
+  },
+  {
+    name: "Discord",
+    icon: RxDiscordLogo,
+    link: "https://discord.com",
+  },
+  {
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/albertjin-dev",
+  },
+  
 ] as const;
 
 export const FRONTEND_SKILL = [
@@ -259,88 +271,25 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Wallsneedlove",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      'WallsNeedLove offers stylish, removable wallpaper and wall decals perfect for renters and DIY home decorators. Their peel-and-stick designs are easy to apply and remove without damaging walls, making it simple to refresh any space. With modern patterns, bold prints, and custom options, WallsNeedLove makes creative decorating accessible and fun. Ideal for apartments, offices, and homes wanting personality without permanence.',
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://wallsneedlove.com/",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Ugmonk",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      'Ugmonk is a design-focused brand offering minimal, high-quality products for work and life. From elegant desk organizers and apparel to handcrafted leather goods, Ugmonk blends form and function beautifully. Known for its Gather desk system and thoughtful craftsmanship, Ugmonk emphasizes simplicity, intentionality, and timeless design—ideal for creatives and professionals who value clarity and quality in their everyday tools.',
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://ugmonk.com/",
   },
   {
-    title: "Space Themed Website",
+    title: "Wisefoodstorage",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'WiseFoodStorage provides long-term emergency food kits and survival gear for families, preppers, and outdoor enthusiasts. Their freeze-dried meals offer a shelf life of up to 25 years, making them ideal for disaster preparedness or camping trips. With a focus on convenience, nutrition, and peace of mind, WiseFoodStorage helps people stay ready for the unexpected with easy-to-store, ready-to-eat meals and essential emergency supplies.',
     image: "/projects/project-3.png",
-    link: "https://example.com",
-  },
-] as const;
-
-export const FOOTER_DATA = [
-  {
-    title: "Community",
-    data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
-    ],
-  },
-  {
-    title: "Social Media",
-    data: [
-      {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
-    ],
-  },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
-      },
-    ],
+    link: "https://wisefoodstorage.com/",
   },
 ] as const;
 

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components",
+    "\\components\\main",
+    "\\components\\sub",
+    "\\config",
+    "\\constants",
+    "\\lib"
+  ],
+  "SelectedNode": "\\components\\main\\footer.tsx",
+  "PreviewInSolutionExplorer": false
+}
